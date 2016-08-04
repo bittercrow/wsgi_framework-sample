@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>テストタイトル</title>
+        <link rel="stylesheet" href="/static/css/default.css">
+    </head>
+    <body>
+        <h1>テストテンプレート</h1>
+        <p>テストページです</p>
+        <p>今日のシナノゴールド</p>
+        <img src="/static/images/shinanogold.png">
+
+        <ul>
+        {% for m in messages %}
+           <li>{{ m }}</li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>
